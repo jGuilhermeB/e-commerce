@@ -1,5 +1,5 @@
 import imageBg from "../../public/login-bg.jpg"
-import LoginForm from "./loginform"
+import LoginForm from "@/components/LoginForm"
 
 export default function Home(){
   return (
