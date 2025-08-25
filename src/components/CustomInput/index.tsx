@@ -2,7 +2,7 @@ import { useState } from "react";
 import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
 
 interface CustomInputProps {
-  label: string;
+  label?: string;
   icon?: React.ReactNode;
   type: "text" | "email" | "password";
   placeholder?: string;
@@ -23,11 +23,13 @@ export default function CustomInput({
   }
 
   return (
-    <div className="space-y-2">
-      <label htmlFor={type} className="text-sm font-medium text-[#F1F2F3]">
+    <div className="space-y-2 w-full">
+      {label && (
+        <label htmlFor={type} className="text-sm font-medium text-[#F1F2F3]">
         {label}
       </label>
-      <div className="relative">
+      )}
+      <div className="relative ">
         {icon && (
           <div
           className="absolute text-gray-400 left-3 top-1/2

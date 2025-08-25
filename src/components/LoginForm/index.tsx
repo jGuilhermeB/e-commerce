@@ -14,7 +14,7 @@ export default function LoginForm() {
             backdrop-blur-lg border border-[#2c313a]/50 rounded-lg">
                 <div className="flex flex-col p-6 text-center">
                     <h1 className="text-2xl font-semibold bg-gradient-to-r
-                     from-[#5593f7] to-[#1d4fd7] text-transparent bg-clip-text">
+                     from-[#b655f7]  to-[#1d4fd7] text-transparent bg-clip-text">
                         Bem-vindo de volta
                     </h1>
                     <p className="text-sm text-gray-400">

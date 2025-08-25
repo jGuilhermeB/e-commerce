@@ -3,7 +3,7 @@ import { CiMail } from "react-icons/ci";
 export default function LoginForm() {    
     return (
         <div className="w-full max-w-md mx-auto">
-            <div className="bg-gradient-to-br from-[#181b20cc] to-[#1d2025e6]
+            <div className=" 
             backdrop-blur-lg border border-[#2c313a]/50 rounded-lg">
                 <div className="flex flex-col p-6 text-center">
                     <h1 className="text-2xl font-semibold bg-gradient-to-r
